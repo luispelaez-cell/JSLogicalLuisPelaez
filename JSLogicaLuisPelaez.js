@@ -35,8 +35,14 @@ bool =num2 % 3 === 0 || num2 % 7 === 0
         break
     }
 
-function maxN(x5) {
-    let n5 = Math.floor((-1 + Math.sqrt(1 + 8 * x)) / 2);
-    return n5;
+function maxNumberSum(x) {
+    let suma = 0;
+    let n = 0;
+    while (suma + (n + 1) <= x) {
+        n += 1;
+        suma += n;
+    }
+    return n;
 }
-console.log("El máximo n para x es:", maxN(15));
+let x5 = 15;
+console.log("El máximo número n para x =", x5, "es:", maxNumberSum(x));
