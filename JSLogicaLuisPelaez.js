@@ -23,3 +23,14 @@ if (xx >= 10){
 }else if (xx >= 4.99) {
     console.log("Suspes")
 }
+
+let num2 = 20;
+bool =num2 % 3 === 0 || num2 % 7 === 0
+    switch (bool){
+        case true:
+            console.log(`${num2} és múltiple de 3 o de 7`);
+        break
+        case false:
+            console.log(`${num2} no és múltiple de 3 ni de 7`);
+        break
+    }
