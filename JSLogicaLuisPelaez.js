@@ -34,3 +34,9 @@ bool =num2 % 3 === 0 || num2 % 7 === 0
             console.log(`${num2} no és múltiple de 3 ni de 7`);
         break
     }
+
+function maxN(x5) {
+    let n5 = Math.floor((-1 + Math.sqrt(1 + 8 * x)) / 2);
+    return n5;
+}
+console.log("El máximo n para x es:", maxN(15));
