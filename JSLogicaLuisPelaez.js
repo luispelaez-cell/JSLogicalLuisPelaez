@@ -57,3 +57,9 @@ function ex6(stringx){
     console.log(suma)
 }
 ex6("patata12")
+function ex7(n1, n2, n3) {
+    const nums = [n1, n2, n3];
+    nums.sort((a, b) => b - a);
+    console.log(nums[0], nums[1], nums[2]);
+}
+ex7(3,4,5)
