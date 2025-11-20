@@ -46,3 +46,14 @@ function maxNumberSum(x) {
 }
 let x5 = 15;
 console.log("El máximo número n para x =", x5, "es:", maxNumberSum(x));
+//6
+function ex6(stringx){
+    let suma = 0 ;
+    for (let i= 0; i< stringx.length; i++){
+        if (!isNaN(stringx[i])){
+            suma = suma + Number(stringx[i])
+        }
+    }
+    console.log(suma)
+}
+ex6("patata12")
