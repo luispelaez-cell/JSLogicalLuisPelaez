@@ -88,3 +88,12 @@ function ex9(){
     }
 }
 ex9()
+let suma =0;
+let num1 =1;
+do {
+    if (num1 %3 ===0 || num1% 5===0){
+        suma+=num1;
+    }
+    num1++;
+}while (num1 <=1000)
+console.log(suma)
