@@ -78,25 +78,29 @@ function ex8(enter) {
         }
     }
 }
+
 ex8(3)
-function ex9(){
-    let asterisco ="*"
-    let ast ="*"
-    for(let i= 0;i <5;i++){
+
+function ex9() {
+    let asterisco = "*"
+    let ast = "*"
+    for (let i = 0; i < 5; i++) {
         console.log(asterisco)
-        asterisco= asterisco+ ast
+        asterisco = asterisco + ast
     }
 }
+
 ex9()
-let suma =0;
-let num1 =1;
+let suma = 0;
+let num1 = 1;
 do {
-    if (num1 %3 ===0 || num1% 5===0){
-        suma+=num1;
+    if (num1 % 3 === 0 || num1 % 5 === 0) {
+        suma += num1;
     }
     num1++;
-}while (num1 <=1000)
+} while (num1 <= 1000)
 console.log(suma)
+
 function ex11() {
     let ast = "*";
     let asterisco = "*";
@@ -109,4 +113,13 @@ function ex11() {
         asterisco += ast;
     }
 }
+
 ex11();
+let numero = "4334"
+let resultado = "";
+
+for (let i = 0; i < numero.length; i += 2) {
+    resultado += numero[i + 1] + numero[i];
+}
+console.log(resultado);
+
